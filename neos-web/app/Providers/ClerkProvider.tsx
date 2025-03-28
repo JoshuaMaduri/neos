@@ -1,11 +1,11 @@
-import { ClerkProvider } from "@clerk/nextjs";
+// import { ClerkProvider } from "@clerk/nextjs";
 
-interface ClientProvidersProps {
-    children: React.ReactNode;
-  }
+// interface ClientProvidersProps {
+//     children: React.ReactNode;
+//   }
 
-export function clerkProviderComponent({ children }:ClientProvidersProps ){
-    return (
-        <ClerkProvider>{children}</ClerkProvider>
-    )
-}
+// export function ClerkProviderComponent({ children }:ClientProvidersProps ){
+//     return (
+//         <ClerkProvider>{children}</ClerkProvider>
+//     )
+// }
